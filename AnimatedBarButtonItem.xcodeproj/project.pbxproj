@@ -13,6 +13,7 @@
 		632334031AA6541900B4AD68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632334021AA6541900B4AD68 /* Images.xcassets */; };
 		632334061AA6541900B4AD68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632334041AA6541900B4AD68 /* LaunchScreen.xib */; };
 		632334121AA6541900B4AD68 /* AnimatedBarButtonItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632334111AA6541900B4AD68 /* AnimatedBarButtonItemTests.swift */; };
+		6323341C1AA65E4800B4AD68 /* RotatingBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323341B1AA65E4800B4AD68 /* RotatingBarButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6323340B1AA6541900B4AD68 /* AnimatedBarButtonItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBarButtonItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632334101AA6541900B4AD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632334111AA6541900B4AD68 /* AnimatedBarButtonItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBarButtonItemTests.swift; sourceTree = "<group>"; };
+		6323341B1AA65E4800B4AD68 /* RotatingBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingBarButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				632334021AA6541900B4AD68 /* Images.xcassets */,
 				632334041AA6541900B4AD68 /* LaunchScreen.xib */,
 				632333F91AA6541900B4AD68 /* Supporting Files */,
+				6323341B1AA65E4800B4AD68 /* RotatingBarButtonItem.swift */,
 			);
 			path = AnimatedBarButtonItem;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				632333FE1AA6541900B4AD68 /* ViewController.swift in Sources */,
+				6323341C1AA65E4800B4AD68 /* RotatingBarButtonItem.swift in Sources */,
 				632333FC1AA6541900B4AD68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

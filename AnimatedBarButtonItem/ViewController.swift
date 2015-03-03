@@ -9,16 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        let barButton = UIBarButtonItem(title: "BTN", style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
-        self.navigationItem.setLeftBarButtonItem(barButton, animated: true)
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let barButton = RotatingBarButtonItem(image: UIImage(named: "arrow")!)
+        self.navigationItem.setLeftBarButtonItem(barButton, animated: true)
     }
 }
 
