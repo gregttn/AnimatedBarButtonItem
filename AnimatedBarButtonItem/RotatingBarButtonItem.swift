@@ -28,15 +28,14 @@ class RotatingBarButtonItem: UIBarButtonItem {
     }
     
     func animate() {
-        UIView.animateWithDuration(0.5) { () -> Void in
-            
+        UIView.animateWithDuration(0.6, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
             if self.isRotated {
                 self.customView?.transform = CGAffineTransformIdentity
             } else {
                 self.customView?.transform = CGAffineTransformMakeRotation(self.angle)
             }
-            
             self.isRotated = !self.isRotated
-        }
+        }, completion: nil);
+
     }
 }
